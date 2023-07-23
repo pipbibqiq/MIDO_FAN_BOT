@@ -449,6 +449,13 @@ async def handle_text_messages(message: types.Message):
     types.ContentType.DOCUMENT,
     types.ContentType.AUDIO,
     types.ContentType.VOICE,
+    types.ContentType.POLL,
+    types.ContentType.LOCATION,
+    types.ContentType.VIDEO_NOTE,
+    types.ContentType.VENUE,
+    types.ContentType.GAME,
+    types.ContentType.INVOICE,
+    types.ContentType.SUCCESSFUL_PAYMENT,
 ])
 async def handle_media_messages(message: types.Message):
     await message.delete()
