@@ -22,7 +22,6 @@ ib_poit_1course_generalScheduleSheet = [InlineKeyboardButton(text='Распис�
 ib_poit_1course_sessionSchedule = [InlineKeyboardButton(text='График проведения сессий', callback_data='poit_1course_ss')]
 ib_poit_1course_interSessionSchedule = [InlineKeyboardButton(text='Расписание межсессионных занятий', callback_data='poit_1course_iss')]
 ib_poit_1course_listOfTeachers = [InlineKeyboardButton(text='Контакты преподавателей', callback_data='poit_1course_lot')]
-ib_poit_1course_deans = [InlineKeyboardButton(text='Деканат', callback_data='poit_1course_deans')]
 ib_poit_1course_liquidationOfDebts = [InlineKeyboardButton(text='Ликвидация долгов', callback_data='poit_1course_lod')]
 ib_poit_1course_paymentSchedule = [InlineKeyboardButton(text='График оплат', callback_data='poit_1course_ps')]
 ib_mido_back = [InlineKeyboardButton(text='Вернуться в начало', callback_data='back1')]
@@ -30,7 +29,6 @@ ikb_poit_1course.add(*ib_poit_1course_generalScheduleSheet)
 ikb_poit_1course.add(*ib_poit_1course_sessionSchedule)
 ikb_poit_1course.add(*ib_poit_1course_interSessionSchedule)
 ikb_poit_1course.add(*ib_poit_1course_listOfTeachers)
-ikb_poit_1course.add(*ib_poit_1course_deans)
 ikb_poit_1course.add(*ib_poit_1course_liquidationOfDebts)
 ikb_poit_1course.add(*ib_poit_1course_paymentSchedule)
 ikb_poit_1course.add(*ib_mido_back)
@@ -41,7 +39,6 @@ ib_poit_2course_generalScheduleSheet = [InlineKeyboardButton(text='Распис�
 ib_poit_2course_sessionSchedule = [InlineKeyboardButton(text='График проведения сессий', callback_data='poit_2course_ss')]
 ib_poit_2course_interSessionSchedule = [InlineKeyboardButton(text='Расписание межсессионных занятий', callback_data='poit_2course_iss')]
 ib_poit_2course_listOfTeachers = [InlineKeyboardButton(text='Контакты преподавателей', callback_data='poit_2course_lot')]
-ib_poit_2course_deans = [InlineKeyboardButton(text='Деканат', callback_data='poit_2course_deans')]
 ib_poit_2course_liquidationOfDebts = [InlineKeyboardButton(text='Ликвидация долгов', callback_data='poit_2course_lod')]
 ib_poit_2course_paymentSchedule = [InlineKeyboardButton(text='График оплат', callback_data='poit_2course_ps')]
 ib_mido_back = [InlineKeyboardButton(text='Вернуться в начало', callback_data='back1')]
@@ -49,7 +46,6 @@ ikb_poit_2course.add(*ib_poit_2course_generalScheduleSheet)
 ikb_poit_2course.add(*ib_poit_2course_sessionSchedule)
 ikb_poit_2course.add(*ib_poit_2course_interSessionSchedule)
 ikb_poit_2course.add(*ib_poit_2course_listOfTeachers)
-ikb_poit_2course.add(*ib_poit_2course_deans)
 ikb_poit_2course.add(*ib_poit_2course_liquidationOfDebts)
 ikb_poit_2course.add(*ib_poit_2course_paymentSchedule)
 ikb_poit_2course.add(*ib_mido_back)
@@ -60,7 +56,6 @@ ib_poit_3course_generalScheduleSheet = [InlineKeyboardButton(text='Распис�
 ib_poit_3course_sessionSchedule = [InlineKeyboardButton(text='График проведения сессий', callback_data='poit_3course_ss')]
 ib_poit_3course_interSessionSchedule = [InlineKeyboardButton(text='Расписание межсессионных занятий', callback_data='poit_3course_iss')]
 ib_poit_3course_listOfTeachers = [InlineKeyboardButton(text='Контакты преподавателей', callback_data='poit_3course_lot')]
-ib_poit_3course_deans = [InlineKeyboardButton(text='Деканат', callback_data='poit_3course_deans')]
 ib_poit_3course_liquidationOfDebts = [InlineKeyboardButton(text='Ликвидация долгов', callback_data='poit_3course_lod')]
 ib_poit_3course_paymentSchedule = [InlineKeyboardButton(text='График оплат', callback_data='poit_3course_ps')]
 ib_mido_back = [InlineKeyboardButton(text='Вернуться в начало', callback_data='back1')]
@@ -68,7 +63,6 @@ ikb_poit_3course.add(*ib_poit_3course_generalScheduleSheet)
 ikb_poit_3course.add(*ib_poit_3course_sessionSchedule)
 ikb_poit_3course.add(*ib_poit_3course_interSessionSchedule)
 ikb_poit_3course.add(*ib_poit_3course_listOfTeachers)
-ikb_poit_3course.add(*ib_poit_3course_deans)
 ikb_poit_3course.add(*ib_poit_3course_liquidationOfDebts)
 ikb_poit_3course.add(*ib_poit_3course_paymentSchedule)
 ikb_poit_3course.add(*ib_mido_back)
@@ -79,7 +73,6 @@ ib_poit_4course_generalScheduleSheet = [InlineKeyboardButton(text='Распис�
 ib_poit_4course_sessionSchedule = [InlineKeyboardButton(text='График проведения сессий', callback_data='poit_4course_ss')]
 ib_poit_4course_interSessionSchedule = [InlineKeyboardButton(text='Расписание межсессионных занятий', callback_data='poit_4course_iss')]
 ib_poit_4course_listOfTeachers = [InlineKeyboardButton(text='Контакты преподавателей', callback_data='poit_4course_lot')]
-ib_poit_4course_deans = [InlineKeyboardButton(text='Деканат', callback_data='poit_4course_deans')]
 ib_poit_4course_liquidationOfDebts = [InlineKeyboardButton(text='Ликвидация долгов', callback_data='poit_4course_lod')]
 ib_poit_4course_paymentSchedule = [InlineKeyboardButton(text='График оплат', callback_data='poit_4course_ps')]
 ib_mido_back = [InlineKeyboardButton(text='Вернуться в начало', callback_data='back1')]
@@ -87,7 +80,6 @@ ikb_poit_4course.add(*ib_poit_4course_generalScheduleSheet)
 ikb_poit_4course.add(*ib_poit_4course_sessionSchedule)
 ikb_poit_4course.add(*ib_poit_4course_interSessionSchedule)
 ikb_poit_4course.add(*ib_poit_4course_listOfTeachers)
-ikb_poit_4course.add(*ib_poit_4course_deans)
 ikb_poit_4course.add(*ib_poit_4course_liquidationOfDebts)
 ikb_poit_4course.add(*ib_poit_4course_paymentSchedule)
 ikb_poit_4course.add(*ib_mido_back)
@@ -98,7 +90,6 @@ ib_poit_5course_generalScheduleSheet = [InlineKeyboardButton(text='Распис�
 ib_poit_5course_sessionSchedule = [InlineKeyboardButton(text='График проведения сессий', callback_data='poit_5course_ss')]
 ib_poit_5course_interSessionSchedule = [InlineKeyboardButton(text='Расписание межсессионных занятий', callback_data='poit_5course_iss')]
 ib_poit_5course_listOfTeachers = [InlineKeyboardButton(text='Контакты преподавателей', callback_data='poit_5course_lot')]
-ib_poit_5course_deans = [InlineKeyboardButton(text='Деканат', callback_data='poit_5course_deans')]
 ib_poit_5course_liquidationOfDebts = [InlineKeyboardButton(text='Ликвидация долгов', callback_data='poit_5course_lod')]
 ib_poit_5course_paymentSchedule = [InlineKeyboardButton(text='График оплат', callback_data='poit_5course_ps')]
 ib_mido_back = [InlineKeyboardButton(text='Вернуться в начало', callback_data='back1')]
@@ -106,7 +97,6 @@ ikb_poit_5course.add(*ib_poit_5course_generalScheduleSheet)
 ikb_poit_5course.add(*ib_poit_5course_sessionSchedule)
 ikb_poit_5course.add(*ib_poit_5course_interSessionSchedule)
 ikb_poit_5course.add(*ib_poit_5course_listOfTeachers)
-ikb_poit_5course.add(*ib_poit_5course_deans)
 ikb_poit_5course.add(*ib_poit_5course_liquidationOfDebts)
 ikb_poit_5course.add(*ib_poit_5course_paymentSchedule)
 ikb_poit_5course.add(*ib_mido_back)
